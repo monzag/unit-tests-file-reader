@@ -51,18 +51,4 @@ public class FilePartReader {
             throw new FileNotFoundException();
         }
     }
-
-//    public static void main(String[] args) {
-//        try {
-//            FilePartReader filePartReader = new FilePartReader();
-//            filePartReader.setup("tests/test_data.txt", 1, 2);
-//            String result = filePartReader.readLines();
-//            System.out.println(result);
-//            System.out.println("1a1\n" +
-//                    "2b 2a");
-//            System.out.println(";l");
-//        } catch (FileNotFoundException e) {
-//
-//        }
-//    }
 }
